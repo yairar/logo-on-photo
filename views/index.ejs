@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Uploader</title>
+</head>
+<body>
+	
+<form action="/upload" enctype="multipart/form-data" method="post">
+	Coordinates x: <input type="text" name="x">, y: <input type="text" name="y">
+	<br>
+    <!--input type="file" name="upload" multiple="multiple"-->
+    Logo (*.png) : <input type="file" name="logo">
+    <br>
+    Photos (*.jpg) : <input type="file" name="photos" multiple="multiple">
+    <input type="submit" value="Upload">
+</form>
+
+</body>
+</html>
+
